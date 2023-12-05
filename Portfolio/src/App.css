@@ -1,0 +1,45 @@
+body {
+    background-color: burlywood;
+}
+
+h1 {
+    padding: 2%;
+}
+
+.nav { 
+    background-color: #A62B1F;
+    padding: 1%;
+    display: flex;
+
+}
+
+.nav-tabs {
+    flex-direction: row;  
+    justify-content: space-between;
+}
+
+.nav-item {
+    background-color: #214001;
+    padding: 5%;
+    color: inherit;
+    color: #63ecfc;
+}
+
+.active {
+    background-color: #2E5902;
+}
+
+div a{
+display: flex;
+flex-direction: column;
+}
+footer {
+position: fixed;
+bottom: 0;
+}
+
+footer img {
+    width: 50px;
+    margin: 5px
+
+}

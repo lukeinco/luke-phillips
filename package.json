@@ -1,0 +1,12 @@
+{
+    "name": "connectnode",
+    "version": "1.0.0",
+    "description": "Node connection code",
+    "dependencies": {
+        "mysql2": "^2.2.5",
+        "sequelize": "6.33.0",
+        "inquirer": "9.2.11",
+        "dotenv": "16.3.1",
+        "figlet": "1.6.0"
+    }
+}
