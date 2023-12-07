@@ -1,12 +1,11 @@
 {
-    "name": "connectnode",
-    "version": "1.0.0",
-    "description": "Node connection code",
-    "dependencies": {
-        "mysql2": "^2.2.5",
-        "sequelize": "6.33.0",
-        "inquirer": "9.2.11",
-        "dotenv": "16.3.1",
-        "figlet": "1.6.0"
-    }
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "cd client && vite",
+    "start": "cd client && vite",
+    "install": "cd client && npm install"
+  }
 }

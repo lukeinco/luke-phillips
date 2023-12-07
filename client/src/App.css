@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-    padding: 2%;
+    padding: 3.5%;
 }
 
 .nav { 
@@ -29,17 +29,55 @@ h1 {
     background-color: #2E5902;
 }
 
-div a{
+.contact {
 display: flex;
 flex-direction: column;
+
 }
 footer {
 position: fixed;
 bottom: 0;
+background-color: rgb(221, 168, 99);
 }
 
 footer img {
     width: 50px;
     margin: 5px
 
+}
+#about {
+    display: flex;
+    flex-direction: row;
+}
+#about p {
+    margin-left: 10%;
+}
+#maz {
+    width: 30%;
+}
+#resume {
+    margin-bottom: 40%;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+}
+
+.one {
+    flex-direction: row;
+}
+
+.two {
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+.portfolio img {
+    max-width: 450px;
+}
+
+.portfolio div {
+    flex-direction: column;
+    margin: 2%;
 }
